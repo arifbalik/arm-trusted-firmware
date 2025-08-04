@@ -16,8 +16,8 @@
 #define IV_SIZE			12
 #define IV_STRING_SIZE		24
 #define TAG_SIZE		16
-#define KEY_SIZE		32
-#define KEY_STRING_SIZE		64
+#define KEY_SIZE		16
+#define KEY_STRING_SIZE		32
 
 static int gcm_encrypt(unsigned short fw_enc_status, char *key_string,
 		       char *nonce_string, const char *ip_name,
